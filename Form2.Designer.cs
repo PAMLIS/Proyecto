@@ -36,6 +36,7 @@
             this.informacionDelPacienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pagosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.citasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,7 +54,7 @@
             this.clinicaMedicaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(837, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1007, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,7 +63,8 @@
             this.clinicaMedicaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.informacionDelPacienteToolStripMenuItem,
             this.pagosToolStripMenuItem,
-            this.citasToolStripMenuItem});
+            this.citasToolStripMenuItem,
+            this.registroToolStripMenuItem});
             this.clinicaMedicaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("clinicaMedicaToolStripMenuItem.Image")));
             this.clinicaMedicaToolStripMenuItem.Name = "clinicaMedicaToolStripMenuItem";
             this.clinicaMedicaToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
@@ -73,7 +75,7 @@
             this.informacionDelPacienteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("informacionDelPacienteToolStripMenuItem.Image")));
             this.informacionDelPacienteToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.informacionDelPacienteToolStripMenuItem.Name = "informacionDelPacienteToolStripMenuItem";
-            this.informacionDelPacienteToolStripMenuItem.Size = new System.Drawing.Size(301, 112);
+            this.informacionDelPacienteToolStripMenuItem.Size = new System.Drawing.Size(321, 148);
             this.informacionDelPacienteToolStripMenuItem.Text = "Actualizar Informacion";
             this.informacionDelPacienteToolStripMenuItem.Click += new System.EventHandler(this.informacionDelPacienteToolStripMenuItem_Click);
             // 
@@ -82,7 +84,7 @@
             this.pagosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("pagosToolStripMenuItem.Image")));
             this.pagosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.pagosToolStripMenuItem.Name = "pagosToolStripMenuItem";
-            this.pagosToolStripMenuItem.Size = new System.Drawing.Size(301, 112);
+            this.pagosToolStripMenuItem.Size = new System.Drawing.Size(321, 148);
             this.pagosToolStripMenuItem.Text = "Pagos";
             // 
             // citasToolStripMenuItem
@@ -90,16 +92,25 @@
             this.citasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("citasToolStripMenuItem.Image")));
             this.citasToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.citasToolStripMenuItem.Name = "citasToolStripMenuItem";
-            this.citasToolStripMenuItem.Size = new System.Drawing.Size(301, 112);
+            this.citasToolStripMenuItem.Size = new System.Drawing.Size(321, 148);
             this.citasToolStripMenuItem.Text = "Citas";
+            // 
+            // registroToolStripMenuItem
+            // 
+            this.registroToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.registroToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("registroToolStripMenuItem.Image")));
+            this.registroToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.registroToolStripMenuItem.Name = "registroToolStripMenuItem";
+            this.registroToolStripMenuItem.Size = new System.Drawing.Size(321, 148);
+            this.registroToolStripMenuItem.Text = "Registro";
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 60);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 107);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(813, 301);
+            this.pictureBox1.Size = new System.Drawing.Size(951, 301);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
@@ -108,7 +119,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(837, 450);
+            this.ClientSize = new System.Drawing.Size(1007, 546);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -131,5 +142,6 @@
         private System.Windows.Forms.ToolStripMenuItem informacionDelPacienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pagosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem citasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registroToolStripMenuItem;
     }
 }
